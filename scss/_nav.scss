@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: $light-blue;
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    li{
+        padding: $m5;
+        margin: $m5;
+    }
+    .titulo{
+        font-family: $header-font;
+        margin-left: $m10;
+        margin-top: $m10;
+        color: $black-blue;
+        font-size: x-large;
+    }
+    .nav-list{
+        font-family: $text-font;
+        color: $black-blue;
+        font-size: large;
+    }
+    .card-margin{
+        border: 8px solid $light-blue;
+    }
+    i{
+        color: $black-blue;
+    }
+}

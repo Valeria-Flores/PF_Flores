@@ -1,0 +1,14 @@
+footer{
+    background-color: $light-blue;
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 20px;
+    color:$black-blue;
+    font-family: $text-font;
+    font-size: large;
+    div{
+        background-color: $light-blue;
+        padding: 20px;
+    }
+}

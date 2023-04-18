@@ -1,0 +1,42 @@
+main{
+    .radius{
+        border-radius: 50px;
+    }
+    .card-img{
+        height:230px;
+    }
+    .align-center{
+        text-align: center;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .s-textinput{
+        background-color: $medium-blue;
+        border-radius: 15px;
+        border: 1px solid $white;
+        padding: 14px;
+    }
+    .buttons{
+        background-color: $blue;
+        border-radius: 20px;
+        color: $white;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: $text-font;
+        margin-top: 30px;
+        font-size: large;
+    }
+    .card{
+        border: 20px solid white;
+        background-color: $medium-blue;
+        height: 100%;
+        padding: 20px;
+    }
+    .size-2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size:25px;
+        line-height: 120%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
