@@ -1,6 +1,7 @@
 /*Fuentes*/
 /*Colores*/
 /*Margenes*/
+@import 'animate.css';
 nav {
   display: flex;
   flex-direction: row;
@@ -25,8 +26,6 @@ nav .titulo {
 }
 nav .nav-list {
   font-family: "Josefin Sans", sans-serif;
-  color: #0D667E;
-  font-size: large;
 }
 nav .card-margin {
   border: 8px solid #F6FDFF;
@@ -89,6 +88,30 @@ main .size-2 {
   line-height: 120%;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+nav .a-menu {
+  font-size: large;
+  color: #0D667E;
+  transition: all 0.5s;
+}
+nav .a-menu:hover {
+  font-size: larger;
+  color: #C91465;
+}
+
+footer .a-icono {
+  color: #0D667E;
+  font-size: 40px;
+  transition: all 1s;
+}
+footer .a-icono:hover {
+  font-size: 55px;
+  color: #C91465;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 4s;
 }
 
 main h1 {
