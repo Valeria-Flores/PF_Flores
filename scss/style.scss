@@ -3,6 +3,8 @@
 @import 'footer';
 @import 'pages';
 @import 'animaciones';
+
+// Estilo de fuentes
 main{
     h1{
         font-family: $title-font;
@@ -41,6 +43,13 @@ main{
     }
 
 }
+
+// Espaciado
+.break{
+    margin-bottom: 20px;
+}
+
+// Vista tablet y mobile
 @media (max-width:992px){
     .center{
         text-align: center;
@@ -49,7 +58,4 @@ main{
     .break{
         margin-bottom: 20px;
     }
-}
-.break{
-    margin-bottom: 20px;
 }

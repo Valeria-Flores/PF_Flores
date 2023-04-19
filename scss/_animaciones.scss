@@ -1,4 +1,4 @@
-@import 'animate.css';
+// Animaciones de barra de navegación
 nav{
     .a-menu{
         font-size: large;
@@ -10,6 +10,8 @@ nav{
         color: $pink;
     }
 }
+
+// Animaciones del footer
 footer{
     .a-icono{
         color: $black-blue;
@@ -21,6 +23,8 @@ footer{
         color: $pink;
     }
 }
+
+// animate.css
 .animate__animated.animate__fadeInUp {
     --animate-duration: 4s;
   }
