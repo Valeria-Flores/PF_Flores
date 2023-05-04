@@ -113,15 +113,26 @@ footer .a-icono:hover {
   --animate-duration: 4s;
 }
 
-.main-grid {
+.c-grid {
   display: grid;
-  grid-template-areas: "descripcion" "titulo";
+  margin-left: 8%;
+  margin-right: 8%;
+  grid-template-areas: "titulo" "contenido";
 }
-.main-grid .t-seccion {
+.c-grid .t-seccion {
   grid-area: titulo;
+  justify-self: center;
+  text-align: center;
+  padding-top: 30px;
 }
-.main-grid .formulario {
-  grid-area: descripcion;
+.c-grid .c-seccion {
+  grid-area: contenido;
+}
+.c-grid .c-seccion .bt {
+  justify-items: center;
+}
+.c-grid .c-seccion input {
+  width: 100%;
 }
 
 main h1 {
