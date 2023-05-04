@@ -135,6 +135,76 @@ footer .a-icono:hover {
   width: 100%;
 }
 
+@media (min-width: 1024px) {
+  .s-grid {
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: 35% 65%;
+    row-gap: 35px;
+    grid-template-areas: "titulo titulo" "imagen1 texto1" "imagen2 texto2" "imagen3 texto3" "imagen4 texto4";
+  }
+  .s-grid .t-seccion {
+    grid-area: titulo;
+    justify-self: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .s-grid .i-servicio {
+    width: 85%;
+    justify-self: center;
+    align-self: center;
+  }
+  .s-grid .d-servicio {
+    align-self: center;
+  }
+  .s-grid #d1 {
+    grid-area: texto1;
+  }
+  .s-grid #d2 {
+    grid-area: texto2;
+  }
+  .s-grid #d3 {
+    grid-area: texto3;
+  }
+  .s-grid #d4 {
+    grid-area: texto4;
+  }
+  .s-grid #i1 {
+    grid-area: imagen1;
+  }
+  .s-grid #i2 {
+    grid-area: imagen2;
+  }
+  .s-grid #i3 {
+    grid-area: imagen3;
+  }
+  .s-grid #i4 {
+    grid-area: imagen4;
+  }
+}
+@media (max-width: 1023px) {
+  .s-grid {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+  }
+  .s-grid .t-seccion {
+    justify-self: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .s-grid .i-servicio {
+    width: 85%;
+    justify-self: center;
+    align-self: center;
+  }
+  .s-grid .d-servicio {
+    align-self: center;
+    text-align: center;
+  }
+}
 main h1 {
   font-family: "Playfair Display", serif;
   margin-bottom: 5px;
