@@ -114,7 +114,6 @@ footer .a-icono:hover {
 }
 
 .main-grid {
-  background-color: aqua;
   display: grid;
   grid-template-areas: "descripcion" "titulo";
 }
