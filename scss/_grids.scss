@@ -1,0 +1,14 @@
+.main-grid{
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+    "descripcion"
+    "titulo";
+
+    .t-seccion{
+        grid-area: titulo;
+    }
+    .formulario{
+        grid-area: descripcion;
+    }
+}
