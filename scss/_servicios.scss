@@ -1,3 +1,4 @@
+//Vista desktop
 @media (min-width:1024px){
     .s-grid{
         display: grid;
@@ -52,6 +53,7 @@
         }
     }
 }
+//Vista mobile y tablet
 @media (max-width:1023px){
     .s-grid{
         margin-left: 8%;
